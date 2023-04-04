@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Skill">Skill</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container-hero">
+          <div class="images">
+            <img
+              width="400px"
+              src="components/images/1680619105601-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="text-content">
+            <h2>M AKBAR PRIBADI</h2>
+            <p>I'm a FrontEnd Engineer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="About" id="About">
+        <div class="container-About">
+          <div class="image-About">
+            <img
+              src="components/images/main-qimg-97e070433691d102bc1acfdd24fc3aa2-lq.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content-About" style="margin-left: 10px">
+            <h2>Who am i ?</h2>
+            <p>
+              Hi, I'm M Akbar Pribadi, and I graduated from the universitas
+              mercubuana yogyakarta in 2023 with a degree in Computer Science.
+              My interests are in Front End Engineering, and I love to create
+              beautiful and performant products with delightful user
+              experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Skill" id="Skill">
+        <div class="container-Skill">
+          <div class="Hardskill">
+            <h2>Hardskill</h2>
+            <ul style="padding: 0 10px">
+              <li>Html5</li>
+              <li>Css</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+          <div class="Softskill">
+            <h2>Softskill</h2>
+            <ul style="padding: 10px">
+              <li>Communication</li>
+              <li>ProblemSolving</li>
+              <li>Smartworking</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="Contact" id="Contact">
+        <div class="card">
+          <span class="title">Leave a Comment</span>
+          <form class="form">
+            <div class="group">
+              <input placeholder="‎" type="text" required="" />
+              <label for="name">Name</label>
+            </div>
+            <div class="group">
+              <input
+                placeholder="‎"
+                type="email"
+                id="email"
+                name="email"
+                required=""
+              />
+              <label for="email">Email</label>
+            </div>
+            <div class="group">
+              <textarea
+                placeholder="‎"
+                id="comment"
+                name="comment"
+                rows="5"
+                required=""
+              ></textarea>
+              <label for="comment">Comment</label>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>author: <strong>M Akbar Pribadi</strong></p>
+    </footer>
+  </body>
+</html>
